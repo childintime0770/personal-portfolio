@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1920px) and (min-width: 1600px) {
+    body {
+        font-size: 1.1428em;
+    }
+
+    .container {
+        width: 1440px;
+    }
+
+    .servise-container .skills-container {
+        margin-left: 198px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    .container {
+        width: 980px;
+    }
+
+    .services {
+        display: block;
+        text-align: center;
+        width: 363px;
+        margin: auto;
+    }
+
+    .servise-container .skills-container {
+        margin: 90px auto 0;
+        display: flex;
+    }
+
+    .img-section {
+        width: 980px;
+    }
+
+    .width-31 {
+        width: 31%;
+    }
+
+    .mt-290 {
+        margin-top: 150px;
+    }
+
+    .client-opinion p {
+        max-width: 260px;
+        text-align: center;
+    }
+}

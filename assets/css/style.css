@@ -118,8 +118,8 @@ a {
 
 .about-section {
     position: absolute;
-    right: 289px;
-    top: 310px;
+    right: 15%;
+    top: 300px;
 }
 
 .about-section p {
@@ -137,8 +137,8 @@ a {
     margin-top: 5.5em;
 }
 
-.width-470 {
-    width: 470px;
+.width-460 {
+    width: 460px;
 }
 
 .mt-64 {
@@ -166,8 +166,7 @@ a {
 .servise-container .skills-container {
     display: inline-flex;
     flex-wrap: wrap;
-    width: 696px;
-    height: 320px;
+    width: 630px;
     box-sizing: border-box;
     align-items: flex-start;
     vertical-align: top;
@@ -187,7 +186,7 @@ a {
 
 .skills-container p {
     padding-left: 60px;
-    max-width: 223px;
+    max-width: 15.95em;
 }
 
 .width-280 {
@@ -252,7 +251,7 @@ a {
 
 .titles p {
     margin: 20px auto 0;
-    max-width: 530px;
+    max-width: 37.9em;
     font-weight: 400;
     line-height: 2;
 }
@@ -266,7 +265,7 @@ a {
 }
 
 .program-skill {
-    width: 150px;
+    width: 10.8em;
     box-sizing: border-box;
 }
 
@@ -340,6 +339,17 @@ a {
     max-width: 310px;
     color: #6E6E6E;
     line-height: 1.4;
+}
+
+.img-section {
+    width: 1200px;
+    margin: 95px auto 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.img-section img {
+    width: 100%;
 }
 
 .vertical-align-middle {
@@ -432,7 +442,7 @@ a {
 }
 
 .width-120 {
-    width: 128px;
+    width: 9.5em;
     box-sizing: border-box;
 }
 
@@ -443,7 +453,8 @@ a {
 .subscribe-container {
     width: 300px;
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-flow: column;
+    gap: 23px;
     box-sizing: border-box;
 }
 
