@@ -71,14 +71,16 @@ a {
     height: 100vh;
     background-image: url(../images/background-header.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: center top;
 }
 
-.bg-color {
+.bg-color-1 {
     height: 100vh;
-    background: rgb(122,57,219);
-    background: linear-gradient(90deg, rgba(122,57,219,0.5) 0%, rgba(96,72,255,0.5) 100%);
+    background-image: url(../images/bg-color-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; 
 }
 
 .header-container {
@@ -97,6 +99,25 @@ a {
 .header-container .nav-container a:hover,
 .header-container .nav-container a:focus {
     color: #A0D334;
+}
+
+.show {
+    display: none;
+}
+
+.burger-bar {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.burger-bar span {
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2px;
 }
 
 .btn {
@@ -119,7 +140,7 @@ a {
 .about-section {
     position: absolute;
     right: 15%;
-    top: 300px;
+    top: 30%;
 }
 
 .about-section p {
@@ -198,9 +219,17 @@ a {
     height: 100vh;
     background-image: url(../images/background-section.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: center top;
     margin-top: 85px;
+}
+
+.bg-color-2 {
+    height: 100vh;
+    background-image: url(../images/bg-color-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
 .play-button {

@@ -50,3 +50,37 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .responsive-1024 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .img-section {
+        max-width: 90%;
+    }
+
+    .client-opinion p {
+        max-width: 180px;
+        text-align: center;
+    }
+
+    .font-size-09 {
+        font-size: 0.93em;
+    }
+}
+
