@@ -54,6 +54,10 @@ a {
     flex-flow: column;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 
 .container-fluid {
     width: 100%;
@@ -364,6 +368,12 @@ a {
     z-index: 100;
 }
 
+.client-opinion {
+    background-color: ghostwhite;
+    padding: 30px;
+    border-radius: 10px;
+}
+
 .client-opinion p {
     max-width: 310px;
     color: #6E6E6E;
@@ -481,10 +491,14 @@ a {
 
 .subscribe-container {
     width: 300px;
-    display: inline-flex;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.sub-container {
+    display: flex;
     flex-flow: column;
     gap: 23px;
-    box-sizing: border-box;
 }
 
 .pt-70 {
