@@ -1,0 +1,16 @@
+.change .bar-1 {
+    transform: rotate(-45deg) translate(-10px, 6px);
+}
+
+.change .bar-2 {
+    opacity: 0;
+}
+
+.change .bar-3 {
+    transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.return .bar-1 {
+    transform:  rotate(0deg) translate(0px, 0px);
+}
+

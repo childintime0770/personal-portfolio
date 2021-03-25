@@ -10,9 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/animated.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-
-    <script src="./assets/js/script.js"></script>
 </head>
 <body>
     <div class="container-fluid first-background">
@@ -24,8 +23,8 @@
                     </a>
                 </div>
 
-                <nav class="nav-container hide">
-                    <ul class="flex aline-items-center">
+                <nav class="nav-container main-header-nav">
+                    <ul class="flex aline-items-center hide" id="nav-container">
                         <li><a href="/">Home</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">My Story</a></li>
@@ -33,13 +32,11 @@
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Reviews</a></li>
                     </ul>
-                </nav>
 
-                <nav class="show">
-                    <div class="burger-bar">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div class="burger-bar show" id="burger-bar">
+                        <span class="bar-1"></span>
+                        <span class="bar-2"></span>
+                        <span class="bar-3"></span>
                     </div>
                 </nav>
 
@@ -158,47 +155,42 @@
             </p>
         </header>
 
-        <div class="program-skills-section flex justify-content-space-between responsive-1024">
-            <div class="program-skill flex aline-items-center flex-wrap-wrap justify-content-center gap-50">
-                <div class="circle flex justify-content-center aline-items-center">
-                    <span>75%</span>
-                </div>
-
-                <span class="program-name inline-block">adobe xd</span>
+       <div class="container flex flex-wrap-wrap justify-content-space-between">
+            <div>
+                <div class="circle">
+                    <div class="top"></div> 
+                    <span>75%</span> </div>
+                <div class="mt-30 width-130"><span>Adobe Xd</span></div>
             </div>
 
-            <div class="program-skill flex aline-items-center flex-wrap-wrap justify-content-center gap-50">
-                <div class="circle flex justify-content-center aline-items-center">
-                    <span>70%</span>
-                </div>
-
-                <span class="program-name inline-block">Adobe Illustrator</span>
+            <div>
+                <div class="circle">
+                    <div class="top"></div> 
+                    <span>75%</span> </div>
+                <div class="mt-30 width-130"><span>Adobe Xd</span></div>
             </div>
 
-            <div class="program-skill flex aline-items-center flex-wrap-wrap justify-content-center gap-50">
-                <div class="circle flex justify-content-center aline-items-center">
-                    <span>95%</span>
-                </div>
-
-                <span class="program-name inline-block">Adobe Photoshop</span>
+            <div>
+                <div class="circle">
+                    <div class="top"></div> 
+                    <span>75%</span> </div>
+                <div class="mt-30 width-130"><span>Adobe Xd</span></div>
             </div>
 
-            <div class="program-skill flex aline-items-center flex-wrap-wrap justify-content-center gap-50">
-                <div class="circle flex justify-content-center aline-items-center">
-                    <span>60%</span>
-                </div>
-
-                <span class="program-name inline-block">Adobe Indesign</span>
+            <div>
+                <div class="circle">
+                    <div class="top"></div> 
+                    <span>75%</span> </div>
+                <div class="mt-30 width-130"><span>Adobe Xd</span></div>
             </div>
 
-            <div class="program-skill flex aline-items-center flex-wrap-wrap justify-content-center gap-50">
-                <div class="circle flex justify-content-center aline-items-center">
-                    <span>85%</span>
-                </div>
-
-                <span class="program-name inline-block">Adobe After Effects</span>
+            <div>
+                <div class="circle">
+                    <div class="top"></div> 
+                    <span>75%</span> </div>
+                <div class="mt-30 width-130"><span>Adobe Xd</span></div>
             </div>
-        </div>
+       </div>
     </section>
 
     <section class="mt-290">
@@ -321,9 +313,9 @@
         </div>
 
         <div class="scroll-button flex justify-content-space-between">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="client-opinion-button"></div>
+            <div class="client-opinion-button"></div>
+            <div class="client-opinion-button"></div>
         </div>
     </section>
 
@@ -404,5 +396,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

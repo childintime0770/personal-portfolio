@@ -70,6 +70,31 @@
         display: flex;
     }
 
+    .nav-container {
+        position: relative;
+    }
+
+    .main-header-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+        color: black;
+        opacity: 80%;
+        width: 135px;
+        height: 240px;
+        position: absolute;
+        right: 65px;
+        border-radius: 5px;
+        text-align: center;
+        gap: 0;
+        z-index: +150;
+    }
+
+    .nav-container ul a {
+        color: black;
+        font-size: 16px;
+    }
+
     .responsive-1024 {
         flex-wrap: wrap;
         justify-content: center;
