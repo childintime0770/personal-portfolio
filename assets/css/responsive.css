@@ -18,7 +18,7 @@
     }
 
     .container {
-        width: 980px;
+        max-width: 980px;
     }
 
     .services {
@@ -33,6 +33,11 @@
         display: flex;
     }
 
+    .res-1024-px {
+        justify-content: center;
+        gap: 30px;
+    }
+
     .img-section {
         width: 980px;
     }
@@ -45,16 +50,27 @@
         margin-top: 150px;
     }
 
-    .client-opinion p {
-        max-width: 230px;
-        text-align: center;
+    .center {
+        left: 50%;
+        transform: translate(-50%);
     }
+    
+    .left-side {
+        left: 50%;
+        transform: translate(-16%);
+    }
+    
+    .right-side {   
+        left: 50%;
+        transform: translate(-83%);
+    }
+    
 }
 
 @media only screen and (max-width: 1024px) {
 
     .container {
-        max-width: 90%;
+        max-width: 790px;
     }
 
     .about-section h1 {
@@ -105,19 +121,6 @@
         max-width: 90%;
     }
 
-    .client-opinion {
-        padding: 20px;
-    }
-
-    .client-opinion p {
-        max-width: 180px;
-        text-align: center;
-    }
-
-    .font-size-09 {
-        font-size: 0.8em;
-    }
-
     .pt-70 {
         padding-top: 25px;
     }
@@ -129,6 +132,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .container {
+        width: 590px;
+    }
+
     .first-background {
         background-position-x: 33%;
     }
@@ -140,17 +147,6 @@
     .bg-color-1 .about-section {
         right: 10%;
         top: 50%;
-    }
-
-    .client-opinion p {
-        max-width: 200px;
-        text-align: left;
-    }
-
-    .client-opinion-container {
-        width: 800px;
-        position: relative;
-        left: calc(-1 * (800px - 100vw) / 2 - 30px);
     }
 
     .servise-container .skills-container {
@@ -183,12 +179,13 @@
         margin-top: 90px;
     }
 
-    .scroll-button {
-        margin: 40px auto 0;
-    }
 }
 
 @media only screen and (max-width: 600px) {
+    .container {
+        width: 320px;
+    }
+
     body {
         font-size: 0.6em;
     }
@@ -255,5 +252,18 @@
     .res-800-right img {
         width: 20px;
         margin-top: 20px;
+    }
+
+    .burger-bar span {
+        width: 40px;
+        height: 3px;
+    }
+
+    .change .bar-1 {
+        transform: rotate(-45deg) translate(-7px, 6px);
+    }
+
+    .change .bar-3 {
+        transform: rotate(45deg) translate(-7px, -8px);
     }
 }
